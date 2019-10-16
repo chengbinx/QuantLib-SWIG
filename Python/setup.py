@@ -18,6 +18,7 @@
 """
 
 import os, sys, math, codecs
+import subprocess
 from distutils.cmd import Command
 from distutils.command.build_ext import build_ext
 from distutils.command.build import build
